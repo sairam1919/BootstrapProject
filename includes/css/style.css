@@ -1,0 +1,218 @@
+
+/*------------------------------------ Index.html -------------------------------------------------------*/
+
+
+.navbar-brand{
+  padding: 0px;
+}
+
+
+
+#myCarousel{
+  margin-top: 60px;
+}
+
+#myCarousel .carousel-inner .item{
+  height: 400px;
+}
+
+#slide1 {
+background: url('../../images/Sm.jpg') top center no-repeat;
+}
+#slide2 {
+background: url('../../images/Sm1.jpg') top center no-repeat;
+}
+#slide3 {
+background: url('../../images/Sm3.jpg') top center no-repeat;
+}
+/*#feature img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+#myCarousel .carousel-inner h4{
+  font-size: 30px;
+  margin-top: 0px;
+  color: #D0FA58;
+}
+
+
+
+/*----------------- Info ---------------------*/
+
+
+
+/*------------------- Web Insight ---------------------*/
+
+
+
+.thumbnail{
+  position: relative;
+}
+
+/*------------------ content ------------------*/
+
+
+/*----------------- Footer -----------------*/
+#footer{
+  background: #222;
+  color:#eee;
+  padding-top: 20px;
+}
+#footer li {
+    list-style: none;
+}
+
+
+
+
+/*---------------- General ------------------*/
+
+.glyphicon{
+  margin-right: 5px;
+}
+#features p{
+  padding-top: 20px;
+}
+#features{
+  text-align: center;
+}
+#features{
+  margin:0 0;
+  margin-bottom: 20px;
+
+}
+#features img{
+  padding-bottom: 0px;
+    margin-top: 10px;
+}
+#menu2 h3{
+  padding-bottom: 20px;
+}
+#tablet{
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 30px;
+}
+#rows{
+  padding-left: 0px;
+}
+
+
+
+.well .page-header{
+  margin-top: 0;
+}
+.well .page-header h1{
+  margin-top: 0;
+}
+.well{
+background: #BBDEFB;
+}
+
+
+/*------------------------------------ PortFolio.html ---------------------------------------------------
+-------------------------------------------------------------------------------------------------------*/
+
+/*------------------- Media Queries -------------------*/
+
+@media (max-width: 992px){
+  .siteLogo{
+    font-size: 30px;
+  }
+  #slide1 {
+    background: url('../../images/S.jpg') top center no-repeat;
+  }
+  #slide2 {
+    background: url('../../images/S1.jpg') top center no-repeat;
+  }
+  #slide3 {
+    background: url('../../images/3S.jpg') top center no-repeat;
+  }
+
+
+
+  #myCarousel .carousel-inner h4{
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+/*
+  .showcase_unit .name{
+    font-size: 26px;
+  }
+  .showcase_unit .description{
+    font-size: 14px;
+  }*/
+}
+@media screen and (min-width: 768px)
+{
+  .carousel-caption{
+    padding-top: 0px;
+    padding-bottom: 120px;
+  }
+}
+@media(max-width: 768px) {
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+ #myCarousel .carousel-inner .item{
+   height: 310px;
+     }
+   #myCarousel .carousel-inner #slide1{
+     background-size: 100% 100%;
+   }
+
+   #myCarousel .carousel-inner #slide2{
+     background-size: 100% 100%;
+   }
+
+   #myCarousel .carousel-inner #slide3{
+     background-size: 100% 100%;
+   }
+
+}
+
+@media(max-width: 991px) and (min-width:767px){
+
+#myCarousel {height:310px;}
+
+
+}
+
+
+
+@media(min-width: 1200px) {
+ #myCarousel .carousel-inner .item{
+   height: 500px;
+ }
+ #slide1 {
+   background: url('../../images/L.jpg') top center no-repeat;
+ }
+ #slide2 {
+   background: url('../../images/L2.jpg') top center no-repeat;
+ }
+ #slide3 {
+   background: url('../../images/L3.jpg') top center no-repeat;
+ }
+ .carousel-caption{
+   color:#00E676;
+ }
+ #features{
+   padding: 10px;
+ }
